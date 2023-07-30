@@ -1,0 +1,12 @@
+.container {
+    margin: 2rem;
+    background-color: rgba(128, 128, 128, 0.415);
+    padding: 2rem;
+    border-radius: 2rem;
+    gap: 5rem;
+}
+
+.line {
+    border: 1.5px solid white;
+    width: 10rem;
+}

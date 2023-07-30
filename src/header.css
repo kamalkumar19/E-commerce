@@ -1,0 +1,120 @@
+    .header {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        background-color: #131921;
+        position: relative;
+        top: 0;
+        z-index: 100;
+        color: white;
+    }
+    
+    .header_logo {
+        width: 100px;
+        object-fit: contain;
+        margin: 0 20px;
+        margin-top: 18px;
+    }
+    
+    .header_search {
+        display: flex;
+        align-items: center;
+        border-radius: 50px;
+    }
+    
+    .header_searchIN {
+        width: 50rem;
+        padding: 6px;
+    }
+    
+    .header_searchIcon {
+        background: #cd9402;
+        padding: 5px;
+    }
+    
+    .header_optionLineOn {
+        font-size: 13px;
+    }
+    
+    .header_optionLineOne {
+        padding-left: 30px;
+        margin-bottom: 0%;
+    }
+    
+    .header_optionLineTwo {
+        font-size: 15px;
+        font-weight: 700;
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    
+    .header_nav {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .header_option {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: white;
+    }
+    
+    .header_Basket {
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    
+    .header_basketIN {
+        font-size: xx-large;
+        color: white;
+    }
+    
+    .List {
+        margin-left: 10px;
+        margin-right: 5px;
+        margin-top: 0px;
+    }
+    
+    .card {
+        display: flex;
+        font-weight: 700;
+    }
+    
+    .list {
+        display: none;
+        background-color: white;
+        width: 200px;
+    }
+    
+    .list button {
+        background-color: #cd9402;
+        border-radius: 14px;
+        height: 40px;
+        width: 150px;
+        align-items: center;
+    }
+    
+    @media (max-width:1100px) {
+        .header {
+            height: 80px;
+            display: flex;
+            width: 95rem;
+            align-items: center;
+            background-color: #131921;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            color: white;
+        }
+    }
+    
+    @media (max-width:320px) {
+        .header_searchIN {
+            width: 360px;
+            padding: 6px;
+        }
+    }

@@ -1,0 +1,29 @@
+.containers {
+    display: flex;
+    margin: 10px;
+}
+
+.lefts {
+    margin: 1px;
+}
+
+.rights {
+    margin: 5px;
+}
+
+.star {
+    display: inline-flex;
+}
+
+.remove {
+    background: #f0c14b;
+    width: 150px;
+    height: 50px;
+    margin-top: 60px;
+}
+
+@media (max-width:820) {
+    .rights>p {
+        font-size: 30px;
+    }
+}

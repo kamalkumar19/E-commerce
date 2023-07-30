@@ -1,0 +1,40 @@
+.Product {
+    position: relative;
+    top: -350px;
+    background-color: white;
+    width: 25%;
+    height: 400px;
+    width: 30rem;
+    margin: 0% 20px;
+    border: 1px solid;
+    margin-bottom: 10px;
+}
+
+.Product_one {
+    display: flex;
+}
+
+.product_two {
+    display: flex;
+}
+
+img {
+    width: 8rem;
+    margin: 12px 12px;
+    margin-right: 5px;
+}
+
+.title {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.name {
+    margin-left: 10px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+
+.ok {
+    margin-left: 18px;
+}
